@@ -23,12 +23,13 @@ module.exports = {
     chainId:1337
   },
   mumbai:{
-    url: 'https://rpc-mumbai.maticvigil.com/v1/46bccc7d1b3df51fdb3a1b772f34c2c3a450b2de',
+    url: 'https://rpc-mumbai.maticvigil.com/v1/${projectUrl}',
     chainId:80001,
     accounts: [privateKey]
   },
   mainnet:{
     url: 'https://rpc-mainnet.maticvigil.com/v1/${projectUrl}',
+    chainId:137,
     accounts: [privateKey]
   }
 },
